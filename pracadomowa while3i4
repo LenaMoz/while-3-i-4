@@ -105,7 +105,10 @@ print(duplicates)
 
 # 9. Usuń wszystkie powtarzające się elementy z listy "numbers".
 
+
+print("9-=-"*10)
 numbers = [1,1,1,2,2,5,5,5]
+
 new_list = []
 
 i = 0
@@ -118,12 +121,16 @@ print(new_list)
 
 # 10. Stwórz nową listę o nazwie "squares" zawierającą kwadraty liczb z listy "numbers".
 
+print("10-=-"*10)
 numbers = [1,1,1,2,2,5]
 squares = []
 i = 0
 while i < len(numbers):
     squares.append(numbers[i]**2)
 print(numbers)
+
+
+
 
 #while4
 
